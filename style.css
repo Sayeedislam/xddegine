@@ -70,6 +70,12 @@ nav ul li a {}
 
 .header_btn {}
 
+.hand_burger {
+    display: none;
+}
+
+.hand_burger span {}
+
 .header_btn .btn_style {
     border: none;
     padding: 8px 27px;

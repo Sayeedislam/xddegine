@@ -46,6 +46,12 @@ ul {
     height: 65px;
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background: rgb(255 255 255);
+    padding: 0px 9px;
+    position: fixed;
+    box-shadow: -1px -4px 10px 0px;
 }
 
 .inner_header {
@@ -94,6 +100,7 @@ banner style start
     background-size: cover;
     background-repeat: no-repeat;
     min-height: calc(100vh - 65px);
+    padding-top: 65px;
 }
 
 .inner_banner {}
@@ -111,6 +118,7 @@ banner style start
     max-width: 385px;
     margin: auto;
     color: #FFFFFF;
+    line-height: 24px;
 
 
 }
@@ -131,7 +139,7 @@ banner style start
 }
 
 .banner_contents h5 {
-    color: #151515;
+    color: #524a4a;
 }
 
 h5 {

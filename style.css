@@ -38,6 +38,7 @@ ul {
     padding: 0 15px;
 }
 
+main {}
 
 /* 
  header style start
@@ -412,14 +413,15 @@ destination style start
 /* 
  footer style start
 */
-#footer {}
+#footer {
+    background-color: #E1E8F8;
+}
 
 .inner_footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
     max-height: 180px;
-    background-color: #E1E8F8;
     padding: 60px 0;
 }
 
@@ -438,11 +440,25 @@ destination style start
 
 }
 
-.footer_logo_box i {
-    padding: 10px;
+.footer_logo_box i {}
+
+.footer_single_icon {
+    display: flex;
+    padding: 20px;
     width: 30px;
     height: 30px;
-    background: silver;
+    background: #c0c0c0c7;
     border-radius: 50px;
     margin: 0 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.footer_single_icon:hover {
+    background: #f5ac0de7;
+    color: white;
+
 }
